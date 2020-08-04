@@ -1,19 +1,17 @@
 body {
     font-family: Roboto, sans-serif;
-    margin:0em;
+    width: 100%;
+    margin: 0%
 }
 header {
     background: linear-gradient(to bottom, rgb(153,23,23) 85%, rgb(255, 255, 255));
-    padding: 0.2em;
-    margin: 0em;
     color: rgb(255, 255, 255);
     text-align: center;
-    font-weight: 700;
 }
-main { 
-    margin-left: 14em;
-    margin-right: 14em;
+main {
     border: solid 0.05em rgb(153,23,23);
+    font-size: 14px;
+    width: 100%;
 }
 li{ 
     display:inline-block
@@ -28,26 +26,16 @@ a {
 a:hover { 
     background-color: rgb(221, 175, 175)	
 }
-h2 {
-    text-align: center;
-    margin: 0em;
-    padding: 0.3em;
+
+#historia {
+    float: left;
 }
-p {
-    margin: 0px;
-    padding-left: 2em;
-    padding-right: 2em;
+.principal {
+    width: 500px;
+    padding: 10px;
+    text-align: justify;
 }
-#doacao-inf {
-    text-align: center;
-}
-img {
-    width: 200px;
-    display: inline-block;
-}
-section {
-    
-}
+
 footer {
     background: linear-gradient(to top, rgb(153,23,23) 90%, rgb(255, 255, 255));
     text-align: center;
