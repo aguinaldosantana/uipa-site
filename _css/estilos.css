@@ -9,12 +9,23 @@ header {
     text-align: center;
 }
 main {
-    border: solid 0.05em rgb(153,23,23);
-    font-size: 14px;
     width: 100%;
+    margin-left: 1%;
 }
+section {
+    border: solid 3px rgb(153,23,23);
+    font-size: 14px;
+    padding: 5px 5px;
+    width: 530px;
+    height: 700px;
+}
+
 li{ 
     display:inline-block
+}
+
+ul {
+    margin: 5px;
 }
 a { 
     font-size: 0.85em; 
@@ -26,16 +37,43 @@ a {
 a:hover { 
     background-color: rgb(221, 175, 175)	
 }
-
-#historia {
-    float: left;
+h1 {
+    margin: 0px;
+    padding: 15px;
 }
+p {
+    margin: 1%;
+}
+
 .principal {
-    width: 500px;
+    width: 510px;
     padding: 10px;
+    margin-right: 2px;
     text-align: justify;
 }
 
+.historia img{
+    width: 180px;
+    float: left;
+    margin-right: 0.5em;
+    margin-bottom: 15px;
+}
+
+.historia p:first-of-type::first-letter {
+    color: rgb(153,23,23);
+    font-size: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 5px 0 0;
+    line-height: 0.8;
+    clear: both;
+}
+.historia{
+    float: left;
+    clear: both;
+}
+.doacao-inf {
+    text-align: center;
+}
 footer {
     background: linear-gradient(to top, rgb(153,23,23) 90%, rgb(255, 255, 255));
     text-align: center;
