@@ -1,8 +1,3 @@
-body {
-    font-family: Roboto, sans-serif;
-    width: 100%;
-    margin: 0%
-}
 header {
     background: linear-gradient(to bottom, rgb(153,23,23) 85%, rgb(255, 255, 255));
     color: rgb(255, 255, 255);
@@ -13,7 +8,7 @@ header {
 main {
     width: 960px;
     margin: 0px auto;
-    height: auto;
+    margin-top: 10px;
     box-shadow: 0 0 10px #333;
     background-color: #FFF;
 }
@@ -21,14 +16,14 @@ article {
     width: 480px;
     height: 610px;
     float: left;
-    margin-top: 10px;
+    margin: 10px 10px 10px 10px;
     background-color: snow;
 }
 section {
     width: 300px;
-    height: 100px;
+    height: 726px;
     float: left;
-    padding: 20px;
+    margin-left: 20px;
 }
 
 li{ 
@@ -36,6 +31,7 @@ li{
 }
 ul {
     margin: 5px;
+    float: left;
 }
 a { 
     font-size: 0.85em; 
@@ -58,20 +54,14 @@ p {
     text-indent: 2em;
     margin: 10px;
 }
-.janela2 {
-    height: 610px;
-}
+
 .principal {
-    height: 610px;
+    height: 700px;
     font-size: 14px;
     text-align: justify;
     border: solid 3px rgb(153,23,23);
-    overflow: scroll;
-    padding: 10px;
 }
-.historia {
-    clear: both;
-}
+
 .historia img{
     float: left;
     margin: 3px;
@@ -84,19 +74,10 @@ p {
     line-height: 0.8;
     clear: both;
 }
-.noticias{
-    width: 270px;
-    height: 128px;
-    float: left;
-}
-.doacao {   
-    height: 200px;
-    padding: 0px;
-}
+
 footer {
     background: linear-gradient(to top, rgb(153,23,23) 90%, rgb(255, 255, 255));
     text-align: center;
     height:9em;
     clear: both;
-    margin-top: 20px;
 }
