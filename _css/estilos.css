@@ -6,42 +6,63 @@ header {
     height: 100px;
 }
 main {
-    width: 960px;
+    width: 75%;
     margin: 0px auto;
     margin-top: 10px;
     box-shadow: 0 0 10px #333;
     background-color: #FFF;
 }
 article {
-    width: 480px;
+    width: 50%;
     height: 610px;
     float: left;
     margin: 10px 10px 10px 10px;
     background-color: snow;
 }
 section {
-    width: 300px;
+    width: 31.25%;
     height: 726px;
     float: left;
     margin-left: 20px;
 }
 
-li{ 
-    display:inline-block
-}
-ul {
-    margin: 5px;
+nav ul {
     float: left;
+    margin: 0 auto; padding: 0;
+    width: 100%;
 }
-a { 
-    font-size: 0.85em; 
+nav ul li{ 
+    list-style-type: none;
+    display: inline;
+}
+/*Menu principal*/
+nav ul li a {
+    margin-right: -5px;
+    color: white;
+    background-color: rgb(153,23,23);
     text-decoration: none;
-    text-transform: capitalize; 
-    color: rgb(255, 255, 255); 
-    padding: 0.2em 0.4em;
+    display: inline-block;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+    border: 1px solid darkred;  
 }
-a:hover { 
-    background-color: rgb(221, 175, 175)	
+/*Submenu*/
+nav ul li ul {
+    display: none;
+    position: absolute;
+    padding-top: 5px;
+}
+/*Pulo do Gato - Aparece Menu*/
+nav li:hover ul {
+    display: block;
+}
+/*Itens submenu*/
+nav ul li ul li a {
+    width: 90px;
+    margin-top: -1px;
+}
+nav ul li a:hover { 
+    background-color: green;
 }
 h1 {
     margin: 0px;
