@@ -7,8 +7,9 @@ header {
 }
 main {
     width: 75%;
+    height: 100%;
     margin: 0px auto;
-    margin-top: 10px;
+    margin-top: 35px;
     box-shadow: 0 0 10px #333;
     background-color: #FFF;
 }
@@ -20,7 +21,7 @@ article {
     background-color: snow;
 }
 section {
-    width: 31.25%;
+    width: 44%;
     height: 726px;
     float: left;
     margin-left: 20px;
@@ -50,7 +51,7 @@ nav ul li a {
 nav ul li ul {
     display: none;
     position: absolute;
-    padding-top: 5px;
+    padding-top: 4px;
 }
 /*Pulo do Gato - Aparece Menu*/
 nav li:hover ul {
@@ -59,7 +60,7 @@ nav li:hover ul {
 /*Itens submenu*/
 nav ul li ul li a {
     width: 90px;
-    margin-top: -1px;
+    padding-top: 1px;
 }
 nav ul li a:hover { 
     background-color: green;
@@ -67,6 +68,14 @@ nav ul li a:hover {
 h1 {
     margin: 0px;
     padding: 15px;
+}
+h4 {
+    font-size: 15px;
+    margin-top: -4px;
+    padding: 5px;
+    text-align: center;
+    background-color: maroon;
+    color: white;
 }
 p {
     font-size: 110%;
@@ -81,8 +90,18 @@ p {
     font-size: 14px;
     text-align: justify;
     border: solid 3px rgb(153,23,23);
+    box-shadow: 0 0 10px #333;
+    margin: 10px 0 10px 5px;
 }
 
+div.adote{
+    margin-top: 20px;
+    box-shadow: 0 0 10px #333;   
+}
+div.doe {
+    margin-top: 20px;
+    box-shadow: 0 0 10px #333; 
+}
 .historia img{
     float: left;
     margin: 3px;
