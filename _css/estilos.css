@@ -22,18 +22,19 @@ main {
     box-shadow: 0 0 10px #333;
     width: 55%;
     float: left;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .mural {
     background-color: white;
     width: 40%;
     float: left;
-    margin: 0 0 0 20px;
+    margin: 30px 0 0 20px;
 }
 section {
     width: 100%;
     margin: 0px auto;
     background-color: white;
+    margin-top: 150px;
 }
 a {
     text-decoration: none;
