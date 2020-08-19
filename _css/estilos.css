@@ -1,81 +1,94 @@
 header {
-    background: linear-gradient(to bottom, rgb(153,23,23) 85%, rgb(255, 255, 255));
-    color: rgb(255, 255, 255);
     text-align: center;
     width: 100%;
-    height: 100px;
+    height: 160px;
+    background-color: wheat;
+    position: fixed;
+    top: 0px;
+    left: 0px; 
+}
+body {
+    font-family: Poppins;
 }
 main {
     width: 75%;
-    height: 100%;
-    margin: 0px auto;
+    margin: 0 auto;
     margin-top: 35px;
     box-shadow: 0 0 10px #333;
     background-color: #FFF;
 }
-article {
-    width: 50%;
-    height: 610px;
+.artigo {
+    background-color: wheat;
+    box-shadow: 0 0 10px #333;
+    width: 55%;
     float: left;
-    margin: 10px 10px 10px 10px;
-    background-color: snow;
+    margin-top: 50px;
+}
+.mural {
+    background-color: white;
+    width: 40%;
+    float: left;
+    margin: 30px 0 0 20px;
 }
 section {
-    width: 44%;
-    height: 726px;
-    float: left;
-    margin-left: 20px;
+    width: 100%;
+    margin: 0px auto;
+    background-color: white;
+    margin-top: 150px;
 }
-
+a {
+    text-decoration: none;
+    color: black;
+}
+/*
 nav ul {
-    float: left;
     margin: 0 auto; padding: 0;
     width: 100%;
+    font-size: 20px;
 }
 nav ul li{ 
     list-style-type: none;
     display: inline;
 }
-/*Menu principal*/
+/*Menu principal
 nav ul li a {
-    margin-right: -5px;
-    color: white;
-    background-color: rgb(153,23,23);
+    margin:0 0 20px -5px;
+    color: rgb(153,23,23);
     text-decoration: none;
-    display: inline-block;
-    margin-bottom: 1px;
-    padding: 5px 10px;
-    border: 1px solid darkred;  
+    margin: 0 0 0 20px;
+    margin-bottom: 50px;
 }
-/*Submenu*/
+/*Submenu
 nav ul li ul {
     display: none;
     position: absolute;
-    padding-top: 4px;
+    padding-top: 3px;
+    float: left;
 }
-/*Pulo do Gato - Aparece Menu*/
+/*Pulo do Gato - Aparece Menu
 nav li:hover ul {
     display: block;
 }
-/*Itens submenu*/
+/*Itens submenu
 nav ul li ul li a {
     width: 90px;
     padding-top: 1px;
 }
 nav ul li a:hover { 
     background-color: green;
-}
+}*/
+
 h1 {
-    margin: 0px;
-    padding: 15px;
+    text-align: center;
+    color: rgb(153,23,23);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 h4 {
     font-size: 15px;
     margin-top: -4px;
     padding: 5px;
     text-align: center;
-    background-color: maroon;
-    color: white;
+    background-color: wheat;
 }
 p {
     font-size: 110%;
@@ -84,28 +97,49 @@ p {
     text-indent: 2em;
     margin: 10px;
 }
-
+.doacao {
+    float: right;
+    margin-top: 90px;
+}
+.logouipa {
+    float: left;
+    margin: 40px 0 0 70px;
+}
+.sociais {
+    float: right;
+    margin: 90px 90px 0 0;
+    padding: 10px;
+}
 .principal {
-    height: 700px;
-    font-size: 14px;
+    font-size: 10px;
     text-align: justify;
-    border: solid 3px rgb(153,23,23);
-    box-shadow: 0 0 10px #333;
     margin: 10px 0 10px 5px;
 }
-
-div.adote{
+.adote img {
+    padding: 20px;
+}
+.doe img {
+    padding: 20px;
+}
+.campanhas img {
+    padding: 20px;
+}
+div.adote{   
     margin-top: 20px;
-    box-shadow: 0 0 10px #333;   
+    box-shadow: 0 0 10px #333; 
+    width: 390px;
 }
 div.doe {
+    width: 390px;
     margin-top: 20px;
     box-shadow: 0 0 10px #333; 
 }
-.historia img{
-    float: left;
-    margin: 3px;
+div.campanhas {
+    width: 390px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px #333; 
 }
+
 .historia p:first-of-type::first-letter {
     color: rgb(153,23,23);
     font-size: 4em;
@@ -114,10 +148,12 @@ div.doe {
     line-height: 0.8;
     clear: both;
 }
-
+small {
+    margin-left: 30px;
+}
 footer {
-    background: linear-gradient(to top, rgb(153,23,23) 90%, rgb(255, 255, 255));
-    text-align: center;
-    height:9em;
+    width: 100%;
+    height: 160px;
+    background-color: wheat;
     clear: both;
 }
