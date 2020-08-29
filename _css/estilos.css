@@ -172,3 +172,12 @@ footer {
     height: 30px;
     text-align: center;
 }
+.coluna1-footer {
+    float: left;
+    margin-top: 45px;
+}
+footer ol {
+    list-style-type: none;
+    width: 200px;
+    margin-top: 75px;
+}
